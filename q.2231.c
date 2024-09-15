@@ -5,8 +5,8 @@
 
 struct Treenode {
     int data;
-    struct node* left;
-    struct node* right;
+    struct Treenode* left;
+    struct Treenode* right;
 };
 
 bool edatauateTree(struct Treenode* root){
